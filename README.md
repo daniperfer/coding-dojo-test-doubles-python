@@ -1,5 +1,5 @@
 # Coding dojo test doubles  
-A solution for this kata, which was conducted at Gradiant by [Marcos Cela][Marcos Cela github] e Iván Gómez Rodríguez. 
+A solution for this kata, which was conducted at Gradiant by [Marcos Cela][Marcos Cela github] e [Iván Gómez Rodríguez][Ivan Gomez github].
   
 # Objective  
   
@@ -13,14 +13,15 @@ Learn about some core concepts on testing using the so called helpers:
   
 Most of the code, ideas and other were extracted from [Luis Rovirosa's GitHub][github/luisrovirosa/katas-java], as part  of the [Codium][Codium team main page] TDD course, conduced by [Luis Rovirosa][Luis Rovirosa LinkedIn] and [Jordi Anguela][Jordi Anguela LinkedIn].  
   
-[github/luisrovirosa/katas-java]: https://github.com/luisrovirosa/katas-java/tree/master/print-date  
-[Codium team main page]: http://www.codium.team  
-[Luis Rovirosa LinkedIn]: https://www.linkedin.com/in/luisrovirosa  
-[Jordi Anguela LinkedIn]: https://www.linkedin.com/in/jordianguela  
-[Marcos Cela github]: https://github.com/Markoscl  
+[github/luisrovirosa/katas-java]: https://github.com/luisrovirosa/katas-java/tree/master/print-date
+[Codium team main page]: http://www.codium.team
+[Luis Rovirosa LinkedIn]: https://www.linkedin.com/in/luisrovirosa
+[Jordi Anguela LinkedIn]: https://www.linkedin.com/in/jordianguela
+[Marcos Cela github]: https://github.com/Markoscl
+[Ivan Gomez github]: https://github.com/igomrod
   
 # Goal  
-Be able to test ***`print_current_date`*** function without changing the method signature.  
+Be able to test **`print_current_date`** function without changing the method signature.
   
   
 ## Rules of the kata  
@@ -55,7 +56,7 @@ How to build a Mock and Stub manually.
 How to use a testing framework to generate the doubles.  
   
 ## Run  tests
-  
+
 ```  
-pytest -v src/dojo_test.py  
+pytest src/dojo_test.py
 ```
